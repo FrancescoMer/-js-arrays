@@ -24,9 +24,12 @@ console.log(lastTeacher);
 console.log(teachers);    
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = teachers.shift();
+console.log(firstTeacher); 
+console.log(teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
+
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
